@@ -1,7 +1,7 @@
 package models
 
-import block;
+import Block;
 
 type Ledger struct {
-	blocks array[Block]
+	blocks []Block
 }
